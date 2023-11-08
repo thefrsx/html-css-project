@@ -1,0 +1,8 @@
+/*Variáveis*/
+:root { 
+    --primary-color: #0A1128;
+    --secondary-color: #dc143c;
+    --white-color: #FFFFFF;
+    --light-grey-color: #EEEEEE;
+    --gap: 3rem;
+}

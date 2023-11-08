@@ -1,0 +1,30 @@
+.main-bg {
+    background-image: url('../img/mainbg.svg'); /*Import da img de fundo*/
+    background-size: cover; /* Para deixar responsivo ao ajuste de tela */
+    background-position: center center; /* Para deixar responsivo ao ajuste de tela*/
+    color: var(--white-color);
+}
+
+.white-bg {
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 10rem var(--gap);
+}
+
+.section {
+    min-height: 100vh; /*para o conteúdo utilizar (cada seção) todo o espaço da tela disponível*/
+}
+
+.menu-spacing {
+    height: 65px;
+}
+
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}
